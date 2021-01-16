@@ -55,7 +55,9 @@ const CS=6
 $.message = '', COOKIES_SPLIT = '', CASH = '';
 let ins=0
 const iboxpayheaderArr = [];
-let iboxpayheaderVal = ``;
+let iboxpayheaderVal = `{"Connection":"keep-alive","Accept-Encoding":"gzip, deflate, br","version":"1.4.4","payFlag":"false","mchtNo":"100529600058887","shopkeeperCustomerId":"","source":"VEISHOP_APP_IOS","shopkeeperId":"","User-Agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148","token":"d954b990f4304470b5dd86971688b41a","Referer":"https://veishop.iboxpay.com/","Host":"veishop.iboxpay.com","Accept-Language":"zh-cn","Accept":"application/json, text/plain, */*"}
+
+`;
 let middleiboxpayHEADER = [];
 
 //时间
